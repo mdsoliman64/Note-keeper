@@ -1,0 +1,72 @@
+body{
+    background-color: #000;
+}
+h1{
+    color: #1b1b1b;
+}
+#note-header{
+    background-color: #fcc906;
+    padding: 20px;
+    
+}
+#note{
+    padding: 20px;
+    margin: 10px auto;
+    
+}
+#note-item{
+    background-color: #1b1b1b;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    max-width: 350px;
+    transition: ease 1s;
+}
+#note-item h1{
+    color: white;
+}
+#note-item button{
+    background-color: #000;
+    color: #fcc906;
+    font-size: 1.4rem;
+    float: right;
+    
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    color: #fcc906;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    position: fixed;
+}
+#form{
+    background-color: #1b1b1b;
+    margin: auto;
+    padding: 10px;
+    transition: ease 2s;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:#fcc906;
+    font-size: 2rem;
+}
+textarea{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:#fcc906;
+    transition: ease .2s;
+    
+}
+button{
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 1.2rem;
+    float: right;
+    transition: ease .2s;
+}
